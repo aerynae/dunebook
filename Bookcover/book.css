@@ -1,0 +1,188 @@
+
+.sky{
+	width: 800px;
+	height: 600px;
+	background: rgb(2,0,36);
+	background: linear-gradient(-180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(6,88,191,1) 67%, rgba(0,212,255,1) 100%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.circles_1 {
+	width: 800px;
+	height: 600px;
+	background: url(images/artwork_dune-02.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	animation: fade 2s infinite;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0.25;
+	}
+
+	25% {
+		opacity: 0.5;
+	}
+
+	50% {
+		opacity: 1.0;
+	}
+
+	75% {
+		opacity: 0.5;
+	}
+
+	100% {
+		opacity: 0.25;
+	}
+}
+
+.circles_2 {
+	width: 800px;
+	height: 600px;
+	background: url(images/artwork_dune-03.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	animation: fade 4s infinite;
+}
+
+.circles_3 {
+	width: 800px;
+	height: 600px;
+	background: url(images/artwork_dune-04.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	animation: fade 6s infinite;
+}
+
+.moon1 {
+	width: 800px;
+	height: 600px;
+	background: url(images/moons-01.png);
+	background-size: cover;
+	position: absolute;
+	left: 4px;
+	top: 0px;
+	z-index: -1;
+	transform: translatey(0px);
+	animation: float 10s ease-in-out;
+
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+
+}
+
+.mountain {
+	width: 800px;
+	height: 600px;
+	background: url(images/mountain-01.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.mountain_2 {
+	width: 800px;
+	height: 600px;
+	background: url(images/mountain02-01.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 90%;
+
+}
+
+.moon {
+	width: 800px;
+	height: 600px;
+	background: url(images/moons-02.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	z-index: -2;
+
+}
+
+
+.person {
+	width: 800px;
+	height: 600px;
+	background: url(images/p1-01.png);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	z-index: 1;
+	background-position: 0px, 290px;
+}
+
+.person:hover {
+	width: 800px;
+	height: 600px;
+	background: url(images/Webp.net-gifmaker.gif);
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 22px;
+	z-index: 1;
+	background-position: 10px, 550px;
+
+}
+
+.title {
+	width: 800px;
+	height: 600px;
+	background: url(images/letters_dune-01.png);
+	background-size: cover;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	z-index: -1;
+	animation: fadetitle 10s forwards;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+@keyframes fadetitle {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
